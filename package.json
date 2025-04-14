@@ -1,0 +1,26 @@
+{
+  "name": "healthy-you2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.14.1",
+    "react-router-dom": "^6.30.0",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "vite": "^6.2.6"
+  }
+}
