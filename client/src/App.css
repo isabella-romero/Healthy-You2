@@ -1,0 +1,140 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 85px
+}
+
+.container h2 {
+  margin-bottom: 90px;
+  font-size: 120%;
+  font-weight: 450;
+  font-family: 'Quicksand', sans-serif;
+  color:rgb(245, 248, 245);
+  
+}
+
+
+
+.card {
+  padding: 2em;
+  
+}
+
+p {
+  font-size: 1.23rem;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body { /* Corrected to lowercase 'body' */
+  background: linear-gradient(to left, #9e2ad0, #f071a4);
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+div > a > button { /* This targets buttons that are children of links nested in divs */
+  background-color: #ff69b473; /* Pink color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding for button */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.button-container > a > button:hover { /* Hover effect */
+  background-color: #eb76a9; /* Light pink color */
+  box-shadow: 0 0 20px rgba(255, 105, 180, 1), 0 0 30px rgba(228, 148, 188, 0.5); /* Glow on hover */
+
+}
+
+/* Glow effect on text */
+h1, h2, div.card p {
+  color: #b2d4e4d5; /* Base color */
+  text-shadow: 0 0 10px rgba(223, 37, 155, 0.263); /* Initial glow */
+  animation: glowing 1.5s infinite alternate; /* Infinite glowing effect */
+}
+
+h2 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Glow effect keyframes */
+@keyframes glowing {
+  0% {
+    text-shadow: 0 0 10px rgba(143, 9, 116, 0.7), 0 0 20px rgba(255, 105, 180, 0.7);
+  }
+  100% {
+    text-shadow: 0 0 20px rgba(255, 105, 180, 1), 0 0 30px rgba(255, 105, 180, 1);
+  }
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h2.Login {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 3rem;
+  }
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+
+}
+
+input {
+  margin-bottom: 20px;
+  font-style: regular;
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  
+}
+
+.login-button {
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgb(123, 115, 115);
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+p {
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 100px;
+}
+

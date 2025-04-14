@@ -1,0 +1,27 @@
+
+/* Example CSS to remove bullet points */
+ul {
+    list-style-type: none; /* Remove bullet points */    
+    
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 1fr)); /* Keep it responsive */
+    gap: 0px; /* Add spacing */
+    margin: auto; /* Ensure it's centered */
+}
+
+button[type="submit"] {
+    background-color: #ffffff; /* Pink background color */
+    color: rgb(12, 9, 9); /* Text color */
+    border-radius: 0px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition for hover effect */
+    width:fit-content;
+    height:fit-content
+}
+
+
